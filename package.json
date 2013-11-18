@@ -1,0 +1,22 @@
+{
+  "name": "node-mvc-boilerplate",
+  "description": "A boilerplate MVC framework for node.",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app",
+    "test": "make test"
+  },
+  "dependencies": {
+    "express": "~3.4.3",
+    "node-uuid": "~1.4.1",
+    "async": "~0.2.9",
+    "request": "~2.27.0",
+    "lodash": "~2.2.1",
+    "swig": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "chai": "~1.7.2"
+  }
+}
